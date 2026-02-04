@@ -22,10 +22,10 @@ import (
 
 	"github.com/a2aproject/a2a-go/a2a"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/workflowagents/loopagent"
-	iagent "google.golang.org/adk/internal/agent"
-	"google.golang.org/adk/internal/llminternal"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/workflowagents/loopagent"
+	iagent "github.com/safore-com/adk-go/internal/agent"
+	"github.com/safore-com/adk-go/internal/llminternal"
 )
 
 // BuildAgentSkills attempts to create a list of [a2a.AgentSkill]s based on agent descriptions and types.

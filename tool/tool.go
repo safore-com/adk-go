@@ -20,10 +20,10 @@ package tool
 import (
 	"context"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/memory"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool/toolconfirmation"
 )
 
 // Tool defines the interface for a callable tool.

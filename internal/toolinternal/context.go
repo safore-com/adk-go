@@ -21,13 +21,13 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
-	contextinternal "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/artifact"
+	contextinternal "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/memory"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/toolconfirmation"
 )
 
 type internalArtifacts struct {

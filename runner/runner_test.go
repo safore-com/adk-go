@@ -24,11 +24,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/artifact"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	"github.com/safore-com/adk-go/artifact"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
 )
 
 func TestRunner_findAgentToRun(t *testing.T) {

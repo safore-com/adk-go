@@ -26,16 +26,16 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/internal/converters"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/server/adka2a"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	"github.com/safore-com/adk-go/internal/converters"
+	"github.com/safore-com/adk-go/internal/utils"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/runner"
+	"github.com/safore-com/adk-go/server/adka2a"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/functiontool"
 )
 
 const (

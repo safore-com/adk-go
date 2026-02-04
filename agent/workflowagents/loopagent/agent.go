@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"iter"
 
-	"google.golang.org/adk/agent"
-	agentinternal "google.golang.org/adk/internal/agent"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	agentinternal "github.com/safore-com/adk-go/internal/agent"
+	"github.com/safore-com/adk-go/session"
 )
 
 // Config defines the configuration for a LoopAgent.

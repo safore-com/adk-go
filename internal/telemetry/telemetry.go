@@ -29,10 +29,10 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
 )
 
 type tracerProviderHolder struct {

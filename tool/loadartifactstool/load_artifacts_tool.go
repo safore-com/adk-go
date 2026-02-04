@@ -25,11 +25,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/internal/toolinternal/toolutils"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/internal/toolinternal/toolutils"
+	"github.com/safore-com/adk-go/internal/utils"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/tool"
 )
 
 // artifactsTool is a tool that loads artifacts and adds them to the session.

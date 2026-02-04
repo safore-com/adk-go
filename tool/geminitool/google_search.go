@@ -17,8 +17,8 @@ package geminitool
 import (
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/tool"
 )
 
 // GoogleSearch is a built-in tool that is automatically invoked by Gemini 2

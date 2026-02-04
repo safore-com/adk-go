@@ -22,12 +22,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/agent/workflowagents/sequentialagent"
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/full"
-	"google.golang.org/adk/model/gemini"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	"github.com/safore-com/adk-go/agent/workflowagents/sequentialagent"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	"github.com/safore-com/adk-go/cmd/launcher/full"
+	"github.com/safore-com/adk-go/model/gemini"
 )
 
 func main() {

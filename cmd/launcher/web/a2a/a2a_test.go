@@ -26,10 +26,10 @@ import (
 	"github.com/a2aproject/a2a-go/a2aclient/agentcard"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/web"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	"github.com/safore-com/adk-go/cmd/launcher/web"
+	"github.com/safore-com/adk-go/session"
 )
 
 func getFreePort(t *testing.T) int {

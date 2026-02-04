@@ -21,11 +21,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/internal/toolinternal"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
 )
 
 type mockFunctionTool struct {

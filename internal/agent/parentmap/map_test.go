@@ -19,11 +19,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/internal/agent/parentmap"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	"github.com/safore-com/adk-go/internal/agent/parentmap"
+	"github.com/safore-com/adk-go/internal/utils"
+	"github.com/safore-com/adk-go/model"
 )
 
 func TestNew(t *testing.T) {

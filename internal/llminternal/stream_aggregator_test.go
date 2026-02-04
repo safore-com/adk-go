@@ -20,8 +20,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/internal/testutil"
-	"google.golang.org/adk/model"
+	"github.com/safore-com/adk-go/internal/testutil"
+	"github.com/safore-com/adk-go/model"
 )
 
 type streamAggregatorTest struct {

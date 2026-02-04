@@ -21,8 +21,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
 )
 
 func TestMetadataTwoWayConversion(t *testing.T) {

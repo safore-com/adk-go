@@ -18,9 +18,9 @@ package sequentialagent
 import (
 	"fmt"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/workflowagents/loopagent"
-	agentinternal "google.golang.org/adk/internal/agent"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/workflowagents/loopagent"
+	agentinternal "github.com/safore-com/adk-go/internal/agent"
 )
 
 // New creates a SequentialAgent.

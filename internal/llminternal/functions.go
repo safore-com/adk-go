@@ -19,11 +19,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/internal/utils"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool/toolconfirmation"
 )
 
 // generateRequestConfirmationEvent creates a new Event containing

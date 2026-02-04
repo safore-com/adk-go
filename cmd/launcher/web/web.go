@@ -26,10 +26,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/universal"
-	"google.golang.org/adk/internal/cli/util"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	"github.com/safore-com/adk-go/cmd/launcher/universal"
+	"github.com/safore-com/adk-go/internal/cli/util"
+	"github.com/safore-com/adk-go/session"
 )
 
 // webConfig contains parameters for launching web server

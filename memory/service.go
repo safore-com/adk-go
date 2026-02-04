@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/session"
 )
 
 // Service is a definition of the memory service.

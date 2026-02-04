@@ -21,12 +21,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/artifact"
-	agentinternal "google.golang.org/adk/internal/agent"
-	"google.golang.org/adk/internal/plugininternal/plugincontext"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/artifact"
+	agentinternal "github.com/safore-com/adk-go/internal/agent"
+	"github.com/safore-com/adk-go/internal/plugininternal/plugincontext"
+	"github.com/safore-com/adk-go/memory"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
 )
 
 // Agent is the base interface which all agents must implement.

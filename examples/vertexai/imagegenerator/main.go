@@ -25,15 +25,15 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/artifact"
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/full"
-	"google.golang.org/adk/model/gemini"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/loadartifactstool"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	"github.com/safore-com/adk-go/artifact"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	"github.com/safore-com/adk-go/cmd/launcher/full"
+	"github.com/safore-com/adk-go/model/gemini"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/functiontool"
+	"github.com/safore-com/adk-go/tool/loadartifactstool"
 )
 
 func main() {

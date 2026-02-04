@@ -25,12 +25,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/universal"
-	"google.golang.org/adk/internal/cli/util"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	"github.com/safore-com/adk-go/cmd/launcher/universal"
+	"github.com/safore-com/adk-go/internal/cli/util"
+	"github.com/safore-com/adk-go/runner"
+	"github.com/safore-com/adk-go/session"
 )
 
 // consoleConfig contains command-line params for console launcher

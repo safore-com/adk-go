@@ -20,11 +20,11 @@ import (
 
 	"github.com/a2aproject/a2a-go/a2asrv"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/artifact"
+	"github.com/safore-com/adk-go/memory"
+	"github.com/safore-com/adk-go/runner"
+	"github.com/safore-com/adk-go/session"
 )
 
 // Launcher is the main interface for running an ADK application.

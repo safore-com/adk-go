@@ -21,12 +21,12 @@ import (
 	"net/http"
 	"time"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/server/adkrest/internal/models"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/artifact"
+	"github.com/safore-com/adk-go/memory"
+	"github.com/safore-com/adk-go/runner"
+	"github.com/safore-com/adk-go/server/adkrest/internal/models"
+	"github.com/safore-com/adk-go/session"
 )
 
 // RuntimeAPIController is the controller for the Runtime API.

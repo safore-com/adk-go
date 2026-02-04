@@ -18,9 +18,9 @@ package instructionutil
 import (
 	"fmt"
 
-	"google.golang.org/adk/agent"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/llminternal"
+	"github.com/safore-com/adk-go/agent"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/internal/llminternal"
 )
 
 // InjectSessionState populates values in the instruction template, e.g. state,

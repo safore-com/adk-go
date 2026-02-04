@@ -21,13 +21,13 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/artifact"
-	artifactinternal "google.golang.org/adk/internal/artifact"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/loadartifactstool"
+	"github.com/safore-com/adk-go/artifact"
+	artifactinternal "github.com/safore-com/adk-go/internal/artifact"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/internal/toolinternal"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/loadartifactstool"
 )
 
 func TestLoadArtifactsTool_Run(t *testing.T) {

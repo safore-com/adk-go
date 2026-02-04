@@ -23,10 +23,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"google.golang.org/adk/cmd/launcher"
-	weblauncher "google.golang.org/adk/cmd/launcher/web"
-	"google.golang.org/adk/internal/cli/util"
-	"google.golang.org/adk/server/adkrest"
+	"github.com/safore-com/adk-go/cmd/launcher"
+	weblauncher "github.com/safore-com/adk-go/cmd/launcher/web"
+	"github.com/safore-com/adk-go/internal/cli/util"
+	"github.com/safore-com/adk-go/server/adkrest"
 )
 
 // apiConfig contains parametres for lauching ADK REST API

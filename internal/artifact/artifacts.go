@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/artifact"
 )
 
 // Artifacts implements Artifacts

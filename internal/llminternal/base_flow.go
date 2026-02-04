@@ -25,18 +25,18 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/internal/agent/parentmap"
-	"google.golang.org/adk/internal/agent/runconfig"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/plugininternal/plugincontext"
-	"google.golang.org/adk/internal/telemetry"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/internal/agent/parentmap"
+	"github.com/safore-com/adk-go/internal/agent/runconfig"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/internal/plugininternal/plugincontext"
+	"github.com/safore-com/adk-go/internal/telemetry"
+	"github.com/safore-com/adk-go/internal/toolinternal"
+	"github.com/safore-com/adk-go/internal/utils"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/toolconfirmation"
 )
 
 var ErrModelNotConfigured = errors.New("model not configured; ensure Model is set in llmagent.Config")

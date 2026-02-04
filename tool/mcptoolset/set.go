@@ -20,8 +20,8 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/tool"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/tool"
 )
 
 // New returns MCP ToolSet.

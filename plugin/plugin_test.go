@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
+	"github.com/safore-com/adk-go/agent"
 )
 
 func TestNew(t *testing.T) {

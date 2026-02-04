@@ -21,8 +21,8 @@ import (
 	"github.com/a2aproject/a2a-go/a2a"
 	"github.com/a2aproject/a2a-go/a2asrv"
 
-	"google.golang.org/adk/internal/converters"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/internal/converters"
+	"github.com/safore-com/adk-go/session"
 )
 
 var (

@@ -22,10 +22,10 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/session"
 )
 
 func TestToSessionEvent(t *testing.T) {

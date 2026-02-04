@@ -30,17 +30,17 @@ import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent/llmagent"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/httprr"
-	"google.golang.org/adk/internal/testutil"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/model/gemini"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/mcptoolset"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/safore-com/adk-go/agent/llmagent"
+	icontext "github.com/safore-com/adk-go/internal/context"
+	"github.com/safore-com/adk-go/internal/httprr"
+	"github.com/safore-com/adk-go/internal/testutil"
+	"github.com/safore-com/adk-go/internal/toolinternal"
+	"github.com/safore-com/adk-go/model"
+	"github.com/safore-com/adk-go/model/gemini"
+	"github.com/safore-com/adk-go/session"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/mcptoolset"
+	"github.com/safore-com/adk-go/tool/toolconfirmation"
 )
 
 type Input struct {

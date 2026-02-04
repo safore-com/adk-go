@@ -20,8 +20,8 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/session"
 )
 
 type InvocationContextParams struct {

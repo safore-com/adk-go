@@ -17,12 +17,12 @@ package tool_test
 import (
 	"testing"
 
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/agenttool"
-	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
-	"google.golang.org/adk/tool/loadartifactstool"
+	"github.com/safore-com/adk-go/internal/toolinternal"
+	"github.com/safore-com/adk-go/tool"
+	"github.com/safore-com/adk-go/tool/agenttool"
+	"github.com/safore-com/adk-go/tool/functiontool"
+	"github.com/safore-com/adk-go/tool/geminitool"
+	"github.com/safore-com/adk-go/tool/loadartifactstool"
 )
 
 func TestTypes(t *testing.T) {

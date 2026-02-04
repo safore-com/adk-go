@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/session"
+	"github.com/safore-com/adk-go/agent"
+	"github.com/safore-com/adk-go/session"
 )
 
 func NewReadonlyContext(ctx agent.InvocationContext) agent.ReadonlyContext {
